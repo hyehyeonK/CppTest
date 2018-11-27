@@ -118,6 +118,7 @@ CREATURE* createCharacter()
 	}
 	return pCharacter;
 }
+
 CREATURE* createMonster(int iLevel)
 {
 	CREATURE* pMonster = new CREATURE;
@@ -184,9 +185,7 @@ void fight(CREATURE* pCharacter, CREATURE* pMonster)
 				break;
 			}
 		}
-
 	}
-
 }
 
 void saveData(CREATURE* pCharacter)
