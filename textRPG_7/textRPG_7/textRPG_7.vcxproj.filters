@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00. GameController">
+      <UniqueIdentifier>{c5149a55-b8a6-42a8-9c9b-60ec0f9e6dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj">
+      <UniqueIdentifier>{7f37ee31-bfc6-4a41-bb38-1b6ea341eb73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\Player">
+      <UniqueIdentifier>{34155093-31b3-4f6c-932e-69b32d2dc69c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\Monster">
+      <UniqueIdentifier>{90a8946e-1205-4510-b2fc-3a601c240c7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Store">
+      <UniqueIdentifier>{ff9b11bd-942e-43ee-a26c-446339578a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Item">
+      <UniqueIdentifier>{548159f8-bd70-4c8f-92b4-81687c4134dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Item\Weapon">
+      <UniqueIdentifier>{71e26287-a0a8-4965-be06-851246e617c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Item\Armor">
+      <UniqueIdentifier>{d637f38f-0e50-4496-b502-b7d0f4307969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Inventory">
+      <UniqueIdentifier>{82ede43b-e736-4fd1-9527-d5f667a6949b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Field">
+      <UniqueIdentifier>{3cfbd29a-3959-48af-9dd1-5c95428e9884}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>00. GameController</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>01. Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01. Obj\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>03. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Store.h">
+      <Filter>02. Store</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor.h">
+      <Filter>03. Item\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>03. Item\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>04. Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>05. Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01. Obj\Monster</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="textRPG_7.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>00. GameController</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>01. Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01. Obj\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>03. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Store.cpp">
+      <Filter>02. Store</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor.cpp">
+      <Filter>03. Item\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>03. Item\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>04. Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>05. Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01. Obj\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
